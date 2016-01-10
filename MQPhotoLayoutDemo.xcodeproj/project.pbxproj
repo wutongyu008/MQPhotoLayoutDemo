@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		107B09B31C415F5700DDAD0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 107B09B21C415F5700DDAD0B /* main.m */; };
+		107B09B61C415F5700DDAD0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 107B09B51C415F5700DDAD0B /* AppDelegate.m */; };
+		107B09B91C415F5700DDAD0B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 107B09B81C415F5700DDAD0B /* ViewController.m */; };
+		107B09BC1C415F5700DDAD0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 107B09BA1C415F5700DDAD0B /* Main.storyboard */; };
+		107B09BE1C415F5700DDAD0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 107B09BD1C415F5700DDAD0B /* Assets.xcassets */; };
+		107B09C11C415F5700DDAD0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 107B09BF1C415F5700DDAD0B /* LaunchScreen.storyboard */; };
+		107B09CB1C4165D500DDAD0B /* MQLineLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 107B09CA1C4165D500DDAD0B /* MQLineLayout.m */; };
+		107B09CE1C421A9600DDAD0B /* MQPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 107B09CD1C421A9600DDAD0B /* MQPhotoCell.m */; };
+		107B09D01C42411700DDAD0B /* MQPhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 107B09CF1C42411700DDAD0B /* MQPhotoCell.xib */; };
+		107B09D31C424B3C00DDAD0B /* MQCircleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 107B09D21C424B3C00DDAD0B /* MQCircleLayout.m */; };
+		107B09D61C42581D00DDAD0B /* MQStackLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 107B09D51C42581D00DDAD0B /* MQStackLayout.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		107B09AE1C415F5700DDAD0B /* MQPhotoLayoutDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MQPhotoLayoutDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		107B09B21C415F5700DDAD0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		107B09B41C415F5700DDAD0B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		107B09B51C415F5700DDAD0B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		107B09B71C415F5700DDAD0B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		107B09B81C415F5700DDAD0B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		107B09BB1C415F5700DDAD0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		107B09BD1C415F5700DDAD0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		107B09C01C415F5700DDAD0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		107B09C21C415F5700DDAD0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		107B09C91C4165D500DDAD0B /* MQLineLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQLineLayout.h; sourceTree = "<group>"; };
+		107B09CA1C4165D500DDAD0B /* MQLineLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQLineLayout.m; sourceTree = "<group>"; };
+		107B09CC1C421A9600DDAD0B /* MQPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQPhotoCell.h; sourceTree = "<group>"; };
+		107B09CD1C421A9600DDAD0B /* MQPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQPhotoCell.m; sourceTree = "<group>"; };
+		107B09CF1C42411700DDAD0B /* MQPhotoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MQPhotoCell.xib; sourceTree = "<group>"; };
+		107B09D11C424B3C00DDAD0B /* MQCircleLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQCircleLayout.h; sourceTree = "<group>"; };
+		107B09D21C424B3C00DDAD0B /* MQCircleLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQCircleLayout.m; sourceTree = "<group>"; };
+		107B09D41C42581D00DDAD0B /* MQStackLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQStackLayout.h; sourceTree = "<group>"; };
+		107B09D51C42581D00DDAD0B /* MQStackLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQStackLayout.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		107B09AB1C415F5700DDAD0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		107B09A51C415F5700DDAD0B = {
+			isa = PBXGroup;
+			children = (
+				107B09B01C415F5700DDAD0B /* MQPhotoLayoutDemo */,
+				107B09AF1C415F5700DDAD0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		107B09AF1C415F5700DDAD0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				107B09AE1C415F5700DDAD0B /* MQPhotoLayoutDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		107B09B01C415F5700DDAD0B /* MQPhotoLayoutDemo */ = {
+			isa = PBXGroup;
+			children = (
+				107B09C81C4165A600DDAD0B /* PhotoLayout */,
+				107B09B41C415F5700DDAD0B /* AppDelegate.h */,
+				107B09B51C415F5700DDAD0B /* AppDelegate.m */,
+				107B09B71C415F5700DDAD0B /* ViewController.h */,
+				107B09B81C415F5700DDAD0B /* ViewController.m */,
+				107B09CC1C421A9600DDAD0B /* MQPhotoCell.h */,
+				107B09CD1C421A9600DDAD0B /* MQPhotoCell.m */,
+				107B09CF1C42411700DDAD0B /* MQPhotoCell.xib */,
+				107B09BA1C415F5700DDAD0B /* Main.storyboard */,
+				107B09BD1C415F5700DDAD0B /* Assets.xcassets */,
+				107B09BF1C415F5700DDAD0B /* LaunchScreen.storyboard */,
+				107B09C21C415F5700DDAD0B /* Info.plist */,
+				107B09B11C415F5700DDAD0B /* Supporting Files */,
+			);
+			path = MQPhotoLayoutDemo;
+			sourceTree = "<group>";
+		};
+		107B09B11C415F5700DDAD0B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				107B09B21C415F5700DDAD0B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		107B09C81C4165A600DDAD0B /* PhotoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				107B09C91C4165D500DDAD0B /* MQLineLayout.h */,
+				107B09CA1C4165D500DDAD0B /* MQLineLayout.m */,
+				107B09D11C424B3C00DDAD0B /* MQCircleLayout.h */,
+				107B09D21C424B3C00DDAD0B /* MQCircleLayout.m */,
+				107B09D41C42581D00DDAD0B /* MQStackLayout.h */,
+				107B09D51C42581D00DDAD0B /* MQStackLayout.m */,
+			);
+			path = PhotoLayout;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		107B09AD1C415F5700DDAD0B /* MQPhotoLayoutDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 107B09C51C415F5700DDAD0B /* Build configuration list for PBXNativeTarget "MQPhotoLayoutDemo" */;
+			buildPhases = (
+				107B09AA1C415F5700DDAD0B /* Sources */,
+				107B09AB1C415F5700DDAD0B /* Frameworks */,
+				107B09AC1C415F5700DDAD0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MQPhotoLayoutDemo;
+			productName = MQPhotoLayoutDemo;
+			productReference = 107B09AE1C415F5700DDAD0B /* MQPhotoLayoutDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		107B09A61C415F5700DDAD0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = qiuming;
+				TargetAttributes = {
+					107B09AD1C415F5700DDAD0B = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 2TAL422SUX;
+					};
+				};
+			};
+			buildConfigurationList = 107B09A91C415F5700DDAD0B /* Build configuration list for PBXProject "MQPhotoLayoutDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 107B09A51C415F5700DDAD0B;
+			productRefGroup = 107B09AF1C415F5700DDAD0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				107B09AD1C415F5700DDAD0B /* MQPhotoLayoutDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		107B09AC1C415F5700DDAD0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				107B09D01C42411700DDAD0B /* MQPhotoCell.xib in Resources */,
+				107B09C11C415F5700DDAD0B /* LaunchScreen.storyboard in Resources */,
+				107B09BE1C415F5700DDAD0B /* Assets.xcassets in Resources */,
+				107B09BC1C415F5700DDAD0B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		107B09AA1C415F5700DDAD0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				107B09B91C415F5700DDAD0B /* ViewController.m in Sources */,
+				107B09CE1C421A9600DDAD0B /* MQPhotoCell.m in Sources */,
+				107B09CB1C4165D500DDAD0B /* MQLineLayout.m in Sources */,
+				107B09B61C415F5700DDAD0B /* AppDelegate.m in Sources */,
+				107B09B31C415F5700DDAD0B /* main.m in Sources */,
+				107B09D31C424B3C00DDAD0B /* MQCircleLayout.m in Sources */,
+				107B09D61C42581D00DDAD0B /* MQStackLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		107B09BA1C415F5700DDAD0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				107B09BB1C415F5700DDAD0B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		107B09BF1C415F5700DDAD0B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				107B09C01C415F5700DDAD0B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		107B09C31C415F5700DDAD0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		107B09C41C415F5700DDAD0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		107B09C61C415F5700DDAD0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MQPhotoLayoutDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mq.MQPhotoLayoutDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		107B09C71C415F5700DDAD0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MQPhotoLayoutDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mq.MQPhotoLayoutDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		107B09A91C415F5700DDAD0B /* Build configuration list for PBXProject "MQPhotoLayoutDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				107B09C31C415F5700DDAD0B /* Debug */,
+				107B09C41C415F5700DDAD0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		107B09C51C415F5700DDAD0B /* Build configuration list for PBXNativeTarget "MQPhotoLayoutDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				107B09C61C415F5700DDAD0B /* Debug */,
+				107B09C71C415F5700DDAD0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 107B09A61C415F5700DDAD0B /* Project object */;
+}
