@@ -21,9 +21,9 @@
 <img src="StackLayout.png" width = "250">
 
 ### 使用说明
-1.将对应的`Layout`文件拖拽进项目
+1. 将对应的`Layout`文件拖拽进项目
 
-在UICollectionView创建的时候对`Layout`进行初始化
+2. 在UICollectionView创建的时候对`Layout`进行初始化
 ```objc
 <#MQLineLayout#> *layout = [[<#MQLineLayout#> alloc]init];
 
