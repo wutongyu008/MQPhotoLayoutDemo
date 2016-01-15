@@ -16,15 +16,11 @@
 NSString *const PhotoLayoutReusedID = @"PhotoLayoutReusedID";
 
 
-@interface ViewController ()<UICollectionViewDataSource, UICollectionViewDelegate>
+@interface ViewController ()<UICollectionViewDataSource>
 
 @property (strong, nonatomic) UICollectionView *collectionView;
 // 图片数组
 @property (strong, nonatomic) NSMutableArray *images;
-// 当前视图索引
-@property (assign, nonatomic) NSInteger currentIndex;
-// 计时器
-//@property (strong, nonatomic) NSTimer *timer;
 
 @end
 
@@ -37,11 +33,6 @@ NSString *const PhotoLayoutReusedID = @"PhotoLayoutReusedID";
     // 添加控件
     [self.view addSubview:self.collectionView];
     
-    // 启动时让item滚动到第1页
-    NSIndexPath *indexPath = [NSIndexPath indexPathForItem:1 inSection:0];
-    [self.collectionView scrollToItemAtIndexPath:indexPath atScrollPosition:UICollectionViewScrollPositionCenteredHorizontally animated:NO];
-    
-    self.currentIndex = 0;
 }
 
 #pragma mark - UICollectionViewDateSource
@@ -54,12 +45,13 @@ NSString *const PhotoLayoutReusedID = @"PhotoLayoutReusedID";
     
     MQPhotoCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:PhotoLayoutReusedID forIndexPath:indexPath];
     
-    NSInteger index = (self.currentIndex + indexPath.item - 1 + self.images.count) % self.images.count;
-    
-    cell.image = self.images[index];
+    cell.image = self.images[indexPath.item];
     
     return cell;
 }
+
+
+/// 切换模式
 - (IBAction)switchModel {
     if ([self.collectionView.collectionViewLayout isKindOfClass:[MQLineLayout class]]) {
         
@@ -83,12 +75,6 @@ NSString *const PhotoLayoutReusedID = @"PhotoLayoutReusedID";
     [self.collectionView deleteItemsAtIndexPaths:@[indexPath]];
 }
 
-#pragma mark - UIScrollViewDelegate
-- (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView
-{
-    
-}
-
 #pragma mark - 懒加载
 - (UICollectionView *)collectionView {
     if (_collectionView == nil) {
@@ -98,7 +84,6 @@ NSString *const PhotoLayoutReusedID = @"PhotoLayoutReusedID";
         _collectionView.showsHorizontalScrollIndicator = NO;
         _collectionView.showsVerticalScrollIndicator = NO;
         _collectionView.dataSource = self;
-        _collectionView.delegate = self;
         [_collectionView registerNib:[UINib nibWithNibName:@"MQPhotoCell" bundle:nil] forCellWithReuseIdentifier:PhotoLayoutReusedID];
     
     }

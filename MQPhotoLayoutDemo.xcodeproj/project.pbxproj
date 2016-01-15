@@ -141,7 +141,7 @@
 				TargetAttributes = {
 					107B09AD1C415F5700DDAD0B = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = 2TAL422SUX;
+						DevelopmentTeam = 7GAG4ZG933;
 					};
 				};
 			};
@@ -298,9 +298,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MQPhotoLayoutDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = mq.MQPhotoLayoutDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = mq.MQPhotoLayoutDemo.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -309,9 +310,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MQPhotoLayoutDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = mq.MQPhotoLayoutDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = mq.MQPhotoLayoutDemo.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -335,6 +337,7 @@
 				107B09C71C415F5700DDAD0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
